@@ -1,0 +1,120 @@
+/*Navbar2*/
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+}
+nav {
+  position: relative;
+  width: 600px;
+  height: 55px;
+  background: #000;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  position: relative;
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 23px;
+  z-index: 1;
+}
+nav span {
+  margin-left: 308px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(45deg, darkblue, blue);
+  border-radius: 8px;
+  transition: 0.5s;
+}
+nav a:nth-child(1):hover ~ span {
+  left: -308px;
+}
+nav a:nth-child(2):hover ~ span {
+  left: -161px;
+}
+nav a:nth-child(3):hover ~ span {
+  left: 0px;
+}
+nav a:nth-child(4):hover ~ span {
+  left: 142px;
+}
+/*Kontaktbuttons*/
+.button {
+  width: 36%;
+  height: 11vh;
+  background-color: #001155;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 17, 85);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.button-text-two {
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  color: black;
+}
+
+.button span {
+  font-size: 2vh;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+  color: black;
+}
+.button span {
+  font-size: 3vh;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+  color: #fff;
+}
+#button1 {
+  margin-left: 5%;
+  color: #fff;
+}
+#button2 {
+  margin-left: 23.333%;
+}
+#button3 {
+  margin-left: 41.666%;
+}
+#button4 {
+  margin-left: 60%;
+}
+
+/*Allgemein*/
+body {
+  background-color: rgb(38, 163, 212);
+  background-image: linear-gradient(
+    to right,
+    rgb(174, 210, 230),
+    rgb(67, 147, 212),
+    rgb(87, 87, 255)
+  );
+}

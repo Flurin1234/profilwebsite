@@ -1,0 +1,68 @@
+/*Bilder Startseite*/
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+}
+aboutme {
+  margin: 0vh 14px;
+  transition: 0.5s;
+}
+aboutme:hover {
+  transform: scale(1.12);
+  background: none;
+  z-index: 2;
+}
+contact {
+  margin: 0vh 14px;
+  transition: 0.5s;
+
+  order: -1;
+}
+contact:hover {
+  transform: scale(1.12);
+  background: none;
+  z-index: 2;
+}
+school {
+  margin: 0vh 14px;
+  transition: 0.5s;
+}
+school:hover {
+  transform: scale(1.12);
+  background: none;
+  z-index: 2;
+}
+.picture {
+  border-radius: 50%;
+  box-shadow: 1vh 1vh 1.5vh;
+  color: rgb(0, 17, 85);
+}
+/*Text zu Bilder*/
+section {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+.kontakt {
+  margin-left: -3%;
+}
+.übermich {
+  margin-left: -1%;
+}
+.schule {
+  margin-left: 4%;
+}
+/*Allgemein*/
+body {
+  background-color: rgb(38, 163, 212);
+  background-image: linear-gradient(
+    to right,
+    rgb(174, 210, 230),
+    rgb(67, 147, 212),
+    rgb(87, 87, 255)
+  );
+}
